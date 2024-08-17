@@ -1,0 +1,16 @@
+Overview
+--------
+
+- A game roughly in the style of Mario Kart with players controlled by external AIs.
+
+
+AIs
+---
+- AIs will be external executables which communicate via stdin and stdout.
+
+- The main game program will spawn the AI exes and establish communication with them.
+
+- The main game program will initiate all communication
+  - Providing an update on the game state
+  - Requesting new actions
+
