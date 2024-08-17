@@ -1,0 +1,66 @@
+How would the track be defined?
+-------------------------------
+- We need a track definition / format
+  - To be used by the game engine
+  - To be passed to the players
+
+
+
+The track itself
+----------------
+
+
+
+Additional items on the track
+-----------------------------
+
+
+
+
+Should players see the whole track in advance of playing?
+---------------------------------------------------------
+- An alternative is that the players just see what a human player
+  would see if they were playing a 3D game
+
+- They would see a ray-casted subset of the track in front of them
+
+- I think that this would be rather complicated
+
+- Also players may want to look behind them, or to the side
+
+- Another alternative is that players see a rectangular subset of the track around where they are
+
+- This still seems not quite right, as they might want to be able to see further ahead
+  or across corners (as if they had line of sight in 3D)
+
+- I propose that player can see the whole track at all times
+
+- This means that players can see:
+  - The whole track layout in advance of playing
+  - The location of all players on the track at all times
+  - The locations of special items and hazards at all times
+  - The location of the start line
+
+
+Direction markers / info
+------------------------
+- I think that there should be some kind of direction indication at each point
+  around the track
+
+- So that players know easily which direction they are supposed to be going
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+

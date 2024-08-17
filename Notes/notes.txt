@@ -1,6 +1,5 @@
 Overview
 --------
-
 - A game roughly in the style of Mario Kart with players controlled by external AIs.
 
 
@@ -13,4 +12,17 @@ AIs
 - The main game program will initiate all communication
   - Providing an update on the game state
   - Requesting new actions
+
+
+2D with a 3D view?
+------------------
+- The track could be essentially 2D
+
+- There could be an option to render it in 3D to make it look more exciting
+  - But the game would be essentially 2D
+
+- There could be jumps, maybe?
+  - Even so, this would just be a temporary addition of height to player positions 
+  - The track itself would still be 2D
+
 
